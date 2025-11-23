@@ -4,6 +4,16 @@
 -- Optional: enable pgcrypto (safe if already exists)
 create extension if not exists pgcrypto;
 
+-- Ensure required unique indexes for ON CONFLICT
+create unique index if not exists uidx_ucrm_patient_mrn_hash
+  on ucrm_patient(mrn_hash);
+create unique index if not exists uidx_ucrm_facility_facility_code
+  on ucrm_facility(facility_code);
+create unique index if not exists uidx_ucrm_provider_npi
+  on ucrm_provider(npi);
+create unique index if not exists uidx_ucrm_encounter_encounter_num
+  on ucrm_encounter(encounter_num);
+
 -- 1) Normalize a working set
 with src as (
   select
@@ -45,7 +55,7 @@ ins_encounter as (
     p.patient_sk,
     f.facility_sk,
     s.encounter_num_eff,
-    s.ed_arrival_time::timestamp,
+    s.ed_arrival_time,
     null
   from src s
   join ucrm_patient  p on p.mrn_hash = s.mrn_hash_eff
