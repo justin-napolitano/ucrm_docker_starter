@@ -1,12 +1,29 @@
 ---
-slug: "github-ucrm-docker-starter"
-title: "ucrm_docker_starter"
-repo: "justin-napolitano/ucrm_docker_starter"
-githubUrl: "https://github.com/justin-napolitano/ucrm_docker_starter"
-generatedAt: "2025-11-23T09:48:44.856306Z"
-source: "github-auto"
+slug: github-ucrm-docker-starter
+title: 'UCRM Docker Starter: Containerized Platform for Clinical Data ETL'
+repo: justin-napolitano/ucrm_docker_starter
+githubUrl: https://github.com/justin-napolitano/ucrm_docker_starter
+generatedAt: '2025-11-23T09:48:44.856306Z'
+source: github-auto
+summary: >-
+  Dockerized environment deploying PostgreSQL, dbt, and Prefect to orchestrate ETL workflows for the
+  Unified Cardiology Registry Model clinical data platform.
+tags:
+  - docker
+  - postgresql
+  - dbt
+  - prefect
+  - etl-pipeline
+  - clinical-data
+seoPrimaryKeyword: ucrm docker starter
+seoSecondaryKeywords:
+  - dockerized etl
+  - postgresql
+  - dbt
+  - prefect
+  - clinical data platform
+seoOptimized: true
 ---
-
 
 # Technical Overview: UCRM Docker Starter
 
