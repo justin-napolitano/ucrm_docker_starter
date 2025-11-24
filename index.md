@@ -23,6 +23,12 @@ seoSecondaryKeywords:
   - prefect
   - clinical data platform
 seoOptimized: true
+topicFamily: datascience
+topicFamilyConfidence: 0.9
+topicFamilyNotes: >-
+  The post describes building a containerized ETL pipeline for clinical data involving PostgreSQL,
+  dbt, and Prefect orchestration, which aligns closely with data analysis, ETL pipelines, and
+  scientific data workflows typical of the 'datascience' family.
 ---
 
 # Technical Overview: UCRM Docker Starter
@@ -82,3 +88,4 @@ Deploying complex clinical data models and ETL pipelines often requires managing
 This repository serves as a foundational platform for deploying and managing the UCRM data environment. It balances containerization for reproducibility with modular SQL migrations and orchestration scripts. The design prioritizes idempotency, extensibility, and practical workflows for data engineering teams working with clinical registry data.
 
 Future enhancements should focus on expanding automation, improving documentation, and integrating additional registry programs and data sources.
+
