@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/ucrm_docker_starter
 generatedAt: '2025-11-24T21:36:43.785Z'
 source: github-auto
 summary: >-
-  Deploy and manage the UCRM environment using Docker with PostgreSQL, pgAdmin,
-  dbt, and Prefect for orchestration.
+  Deploy and manage the UCRM environment using Docker with PostgreSQL, pgAdmin, dbt, and Prefect for
+  orchestration.
 tags:
   - docker
   - postgresql
@@ -25,8 +25,8 @@ seoSecondaryKeywords:
   - prefect workflow orchestration
   - etl pipeline automation
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: datascience
+topicFamilyConfidence: 0.9
 kind: project
 entryLayout: project
 showInProjects: true
@@ -115,3 +115,4 @@ Use credentials from your `.env` file (default: admin@example.com / admin).
 ---
 
 *Note: Some scripts and directories are assumed based on naming conventions and typical ETL project structures.*
+
