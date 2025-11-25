@@ -1,20 +1,30 @@
 ---
 slug: github-ucrm-docker-starter
 id: github-ucrm-docker-starter
-title: UCRM Docker Starter
+title: Docker Starter Kit for Unified Cardiology Registry Model
 repo: justin-napolitano/ucrm_docker_starter
 githubUrl: https://github.com/justin-napolitano/ucrm_docker_starter
 generatedAt: '2025-11-24T21:36:43.785Z'
 source: github-auto
 summary: >-
-  A Docker-based starter kit for deploying and managing the Unified Cardiology
-  Registry Model (UCRM) environment. This repository provides containerized
-  components including a PostgreSQL database, pgAdmin, dbt for data
-  transformations, and Prefect for orchestration.
-tags: []
-seoPrimaryKeyword: ''
-seoSecondaryKeywords: []
-seoOptimized: false
+  Deploy and manage the UCRM environment using Docker with PostgreSQL, pgAdmin,
+  dbt, and Prefect for orchestration.
+tags:
+  - docker
+  - postgresql
+  - pgadmin
+  - dbt
+  - prefect
+  - etl
+  - data transformation
+seoPrimaryKeyword: ucrm docker starter kit
+seoSecondaryKeywords:
+  - docker compose setup
+  - postgres database initialization
+  - dbt data modeling
+  - prefect workflow orchestration
+  - etl pipeline automation
+seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
 kind: project
